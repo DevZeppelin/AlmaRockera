@@ -110,7 +110,7 @@ h2 {
     font-size: 60px;
     color: rgb(255, 255, 255);
     text-align: center;
-    -webkit-text-stroke: 2px rgb(161, 0, 0);
+    -webkit-text-stroke: 1px rgb(161, 0, 0);
     
 
     
@@ -210,7 +210,7 @@ h3 {
 }
 
 #blog p {
-    color: rgb(142, 164, 189);
+    color: rgb(255, 255, 255);
     line-height: 24px;
     font-size: 16px;
 }
@@ -386,7 +386,12 @@ span {
   
    @media (max-width: 800px) {
 
-   
+    
+
+    #top-id .logo {
+
+        font-size: 26px;
+    }
 
     .lista-menu a {
         color: rgb(255, 255, 255);
@@ -408,7 +413,7 @@ span {
         top: 83px;
         left: 0;
         height: 380px;
-        background: rgb(3, 125, 196);
+        background: rgb(255, 0, 0);
         width: 100%;
         display: none;
     }
@@ -426,8 +431,8 @@ span {
     header h1 {
             font-size: 65px;
             margin-bottom: 25px;
-            padding-bottom: 75px;
-            -webkit-text-stroke: 1px royalblue;
+          
+            -webkit-text-stroke: 1px rgb(255, 255, 255);
     }
     
 
@@ -445,7 +450,8 @@ span {
     }
 
     .contenedor-titulo h2 {
-        font-size: 30px;
+        font-size: 60px;
+      
     }
 
     #sobre-mi .contenedor-sobremi {
@@ -556,15 +562,15 @@ span {
     
 
     header h1 {
-        font-size: 44px;
+        font-size: 52px;
         margin-bottom: 25px;
-        padding-bottom: 113px;
-        -webkit-text-stroke: 1px royalblue;
+       
+        -webkit-text-stroke: 1px rgb(255, 255, 255);
     }
 
     .contenedor-titulo h2 {
 
-        font-size: 25px;
+        font-size: 40px;
     }
 
     #whatsapp img {
@@ -598,7 +604,7 @@ span {
     }
 
     header h1 {
-        margin-bottom: 213px;
+        margin-bottom: 100px;
         font-size: 90px;
     }
 
