@@ -1,4 +1,9 @@
-/*las #id no se pueden repetir*/
+/*paleta de colores
+rgb(70, 0, 0)
+rgb(119, 0, 0)
+rgb(151, 16, 16)
+
+*/
 
 body{
     /*siempre es bueno poner el margin 0 al principio para quitar los amrgenes que vienen por defecto que nos ocupan lugar al dope*/
@@ -30,7 +35,7 @@ header .contenedor{
 
 
 .lista-menu a {
-    color: rgb(218, 0, 0);
+    color: rgb(119, 0, 0);
    
 }
 
@@ -95,7 +100,7 @@ header {
 h1 {
     font-family: 'Baloo Bhai', cursive;
     font-size: 91px;
-    color: rgb(167, 0, 0);
+    color: rgb(119, 0, 0);
     text-align: center;
     margin: 0px;
     /* Para bordes: -webkit-text-stroke: 0.01px black;*/
@@ -110,7 +115,7 @@ h2 {
     font-size: 60px;
     color: rgb(255, 255, 255);
     text-align: center;
-    -webkit-text-stroke: 1px rgb(161, 0, 0);
+    -webkit-text-stroke: 1px rgb(119, 0, 0);
     
 
     
@@ -129,7 +134,7 @@ h2 {
 
     font-size: 14px;
     color: #fff;
-    background: rgb(172, 9, 9);
+    background: rgb(119, 0, 0);
     padding: 14px 24px;
     /*el padding es iguial que el margin. top right bottom left. por eso puse 2 ejes y me lo acomodo*/
     text-align: center;
@@ -156,7 +161,7 @@ h3 {
     text-align: center;
     font-size: 55px;
     font-weight: bold;
-    color: rgb(177, 25, 25);
+    color: rgb(119, 0, 0);
     /*margin-top: 100px;    */
     
 }
@@ -193,9 +198,10 @@ h3 {
 
     width: 30%;
     /*recordar que la sombre la puedo generar en la pag*/
-    box-shadow: 1px 1px 14px rgb(138, 4, 4);
+    box-shadow: 1px 1px 14px rgb(119, 0, 0);
     margin-left: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    
 }
 
 #blog img {
@@ -203,7 +209,7 @@ h3 {
 }
 
 #blog .contenido {
-    background: rgb(175, 29, 29);
+    background: rgb(151, 16, 16);
     padding: 20px;
     height: 95%;
     color: white;
@@ -225,6 +231,19 @@ h3 {
     width: 87px;
 }
 
+.contenido:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 25px 15px rgb(151, 16, 16);
+}
+
+.item {
+    padding: 20px;
+}
+
+.item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 5px rgb(151, 16, 16);
+}
 
 
 .link-face a {
@@ -257,7 +276,7 @@ h3 {
 
    footer {
 
-    background: rgb(112, 0, 0);
+    background: rgb(119, 0, 0);
     padding: 40px 0;
     text-align: center;
     margin-top: 40px;
@@ -431,7 +450,7 @@ span {
         top: 83px;
         left: 0;
         height: 275px;
-        background: rgb(255, 0, 0);
+        background: rgb(119, 0, 0);
         width: 100%;
         display: none;
     }
